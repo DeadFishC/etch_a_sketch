@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Etch A Sketch</title>
+  <meta name="author" content="">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="style.css" rel="stylesheet">
+</head>
+
+<body ondragstart="return false;" ondrop="return false;">
+  <span class="bundle">
+    <label for="penColor">Pen color:</label>
+    <input name="penColor" id="penColor" type="color" value="#000000">&nbsp;&nbsp;&nbsp;
+    <label for="backColor">Background color:</label>
+    <input name="backColor" id="backColor" type="color" value="#bbe8c4">&nbsp;&nbsp;&nbsp;
+  </span>
+  <span class="bundle">
+    <label for="size">Canvas size</label>
+    <input name="size" id="size" type="number" value="80" max="100" min="10">
+    <span id="xsize">x80</span>&nbsp;&nbsp;
+    <button id="resize">Resize canvas</button>
+  </span>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <button id="clear">Clear canvas</button>
+  <br><br>
+  <div id="sketch"></div>
+
+  <script src="main.js"></script>
+</body>
+
+</html>

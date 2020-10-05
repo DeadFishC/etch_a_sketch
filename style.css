@@ -1,0 +1,31 @@
+body {
+    min-width:1000px; 
+    margin: 1em; 
+}
+
+#sketch {
+    display: grid;
+    width: 800px;
+    height: 800px;
+    grid-gap: 0px;
+    background-color: cornsilk;
+    grid-auto-rows: 1fr;
+}
+
+.bundle {
+    border: solid 1px;
+    padding: 1em 0.5em;
+    background-color: rgb(237, 227, 241);
+}
+
+/*
+.cell {
+    width: 4px;
+    height: 4px;
+}
+
+/*
+.cell:hover {
+    background-color: white;
+}
+*/
